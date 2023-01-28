@@ -1,0 +1,119 @@
+/*Google Fonts*/
+/*@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');;*/
+/*font-family: 'Raleway', sans-serif;*/
+:root{
+  scroll-behavior: smooth;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  color: white;
+  background-color: white;
+}
+
+
+/* NAV css start */
+/* nav */
+nav{
+  background-color: white;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  align-items: center;
+  justify-content: center;
+  margin:10px;
+  padding: 10px;
+}
+
+nav a{
+  font-family: 'Oswald', sans-serif;
+  padding: 1% 2%;
+  margin: 1%;
+  border: 1px solid #fece96;
+  color: white;
+  background-color: #fd5c51;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.duck {
+  padding: 1%;
+}
+
+.short{
+  margin-left: 50px;
+}
+/* NAV css end */
+
+.eventDescription{
+  margin: 10px;
+  text-align: center;
+  padding: 1% 25%;
+  background-color: #ffa994;
+  font-family: 'Oswald', sans-serif; 
+}
+
+.eventDescription h1{
+  font-size: 35px;
+}
+
+.eventDescription p{
+  font-size: 20px;
+}
+
+
+main{
+  margin:10px;
+  background-color: #db707b;
+  padding: 2%;
+}
+
+
+.eventInfo{
+  font-size: 20px;
+  margin: 10px;
+  font-family: 'Oswald', sans-serif; 
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+/*  for now do you want to make a really quick calender page, it doesnt have to be complicated since we technically dont have any evets yet okay ill try*/
+.cosa{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  font-size: 18px;
+}
+
+.dateTime{
+  color:gray;
+}
+
+#submitBtn{
+  border: 1px solid gray;
+  color: gray;
+  padding: 0.5% 2%;
+  border-radius: ;
+  background-color: white;
+}
+
+footer{
+  background-color: #fd5c51;
+  color: white;
+  text-align: center;
+  padding: 0.5%;
+  margin: 10px;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.table {
+  color: black;
+}
+
