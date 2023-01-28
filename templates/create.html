@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create</title>
+  <link rel="stylesheet" href="/static/create.css">
+   <style>
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+</style>
+</head>
+<body>
+  
+<!-- NAV start -->
+  <nav>
+     <a href="/" class="short">Home</a>
+      <a href="/about">About Us</a>
+      <div class="duck">
+        <img src="/static/duckling.png" alt="duck picture" height=75 px>
+      </div>
+      <a href="/create">Create Event</a>
+<!--   link to calender -->
+      <a href="/add">Calender</a>
+  </nav>
+<!--   NAV end -->
+
+<section class="eventDescription">
+  <h1>Do You Need Volunteers?</h1>
+  <p>Fill out some information about your event and we will put it on our calender so people seeking volunteering positions can be in contact with you!</p>
+</section>
+
+<main>
+  <div id="createEvent">
+  <div id="stuff">
+    
+  <form action="/add" method="post">
+
+  <center>
+    <h2 class="eventInfo">Your Name:</h2>
+    <input type="text" class="cosa eventInfo" placeholder="Name"><br>
+
+<h2 class="eventInfo">Contact Information:</h2>
+<input type="text" class="cosa eventInfo" placeholder="Email"><br>
+    
+    <h2 class="eventInfo">Event Name:</h2>
+  <input type="text" class="cosa eventInfo" placeholder="Event Name"><br>
+
+    <h2 class="eventInfo">Location:</h2>
+  <input type="text" class="cosa eventInfo" placeholder="Place"><br>
+
+    <h2 class="eventInfo">Date:</h2>
+  <input type="date" class="cosa eventInfo dateTime">
+    <br>
+
+    <h2 class="eventInfo">Time:</h2>
+  <input type="time" class="cosa eventInfo dateTime">
+    <br>
+
+    <h2 class="eventInfo">Additional Information:</h2>
+  <input type="text" class="cosa eventInfo" placeholder="Other info"><br><br>
+  
+  <a href="/add" id="submitBtn" class="eventInfo">Submit</a>
+  </center>
+    
+    
+  </form>
+
+
+  </div>
+</div>
+</main>  
+
+  <footer>
+    <p>The Good Duck &copy; 2022</p>
+    <p>Created by Maninder Kaur and Citlali Hernandez</p>
+  </footer>
+
+</body>
+  
+</html>
